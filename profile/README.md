@@ -1,48 +1,48 @@
-### HRGUEDES - Developer Internal Rules ☕️💻
+# ## HRGUEDES - Developer Internal Rules ☕️💻
 
-Este é o repositório de perfil da organização **HRGUEDES**. Este documento serve como o Guia de Padronização para todos os colaboradores e projetos internos.
+This is the profile repository for the **HRGUEDES** organization. This document serves as the Standardization Guide for all contributors and internal projects.
 
-### 🎯 Nossa Missão
-Entregar software robusto com agilidade, mantendo o código limpo e a infraestrutura segura.
+### 🎯 Our Mission
+To deliver robust software with agility, maintaining clean code and secure infrastructure.
 
 ---
 
-### 🛠️ Guia de Padronização e Governança
+### 🛠️ Standardization & Governance Guide
 
-Para manter a casa organizada, todos os membros devem seguir estas diretrizes ao criar ou manter repositórios:
+To keep our environment organized, all members must follow these guidelines when creating or maintaining repositories:
 
-#### 1. Nomenclatura de Repositórios
-Utilizamos o padrão **[PRODUTO]-[NOME-DO-PROJETO]**. 
-Exemplos:
-* `mob-vendas-app` (Para projetos do produto MOB)
-* `crm-api-backend` (Para projetos do produto CRM)
+#### 1. Repository Naming Convention
+We use the pattern **[PRODUCT]-[PROJECT-NAME]**. 
+Examples:
+* `mob-sales-app` (For projects under the MOB product)
+* `crm-api-backend` (For projects under the CRM product)
 * `web-landing-page`
 
-#### 2. Higiene do Código (Setup Inicial)
-Todo novo repositório **deve obrigatoriamente** conter:
-* Um arquivo `.gitignore` apropriado para a linguagem/framework utilizada.
-* Um arquivo `README.md` explicando como rodar o projeto localmente.
+#### 2. Code Hygiene (Initial Setup)
+Every new repository **must mandatory** contain:
+* A proper `.gitignore` file for the language/framework being used.
+* A `README.md` file explaining how to run the project locally.
 
-#### 3. Segurança em Primeiro Lugar (Zero Leak Policy) 🔐
-É terminantemente proibido o versionamento de:
-* Chaves de API, senhas de banco de dados ou tokens.
-* Arquivos `.env` ou arquivos de configuração com dados sensíveis.
-> **Dica:** Utilize variáveis de ambiente no servidor e arquivos `.env.example` no repositório.
-
----
-
-### 🚀 Fluxo de Trabalho
-1. **Branching:** Use `main` para produção e `develop` para integração.
-2. **Pull Requests:** Todo código deve ser revisado antes do merge.
-3. **Commits:** Prefira mensagens claras e em português (ou padrão definido no projeto).
+#### 3. Security First (Zero Leak Policy) 🔐
+It is strictly forbidden to version:
+* API Keys, database passwords, or tokens.
+* `.env` files or configuration files containing sensitive data.
+> **Tip:** Use environment variables on the server and provide an `.env.example` file in the repository.
 
 ---
 
-### 📞 Canais de Contato e Suporte
-Se encontrar algum problema de infraestrutura ou precisar de acesso a novas ferramentas:
+### 🚀 Workflow
+1. **Branching:** Use `main` for production and `develop` for integration.
+2. **Pull Requests:** All code must be reviewed before merging.
+3. **Commits:** Prefer clear messages in Portuguese (or the standard defined for the specific project).
+
+---
+
+### 📞 Contact & Support
+If you encounter any infrastructure issues or need access to new tools:
 
 * **CTO / Admin:** [Hugo Guedes]
-* **E-mail Corporativo:** [hugo.guedes@hrguedes.dev]
+* **Corporate E-mail:** [hugo.guedes@hrguedes.dev]
 
 ---
-*HRGUEDES - Transformando café em soluções digitais.*
+*HRGUEDES - Turning coffee into digital solutions.*
