@@ -1,4 +1,4 @@
-# ## HRGUEDES - Developer Internal Rules ☕️💻
+### HRGUEDES - Developer Internal Rules ☕️💻
 
 Este é o repositório de perfil da organização **HRGUEDES**. Este documento serve como o Guia de Padronização para todos os colaboradores e projetos internos.
 
